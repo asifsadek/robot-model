@@ -42,6 +42,9 @@ To launch the gazebo world
 If it runs into some issue, go to the base directory of the project, i.e, xyz and run
 
 `rm -rf build/ devel/
+
 catkin_make
+
 source devel/setup.bash
+
 roslaunch robot_gazebo robot_world.launch`
